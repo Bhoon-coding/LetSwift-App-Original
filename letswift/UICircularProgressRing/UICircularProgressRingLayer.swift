@@ -102,7 +102,7 @@ class UICircularProgressRingLayer: CAShapeLayer {
     @NSManaged var decimalPlaces: Int
     
     var animationDuration: TimeInterval = 1.0
-    var animationStyle: String = kCAMediaTimingFunctionEaseInEaseOut
+    var animationStyle: String = CAMediaTimingFunctionName.easeInEaseOut.rawValue
     var animated = false
     @NSManaged weak var valueDelegate: UICircularProgressRingView?
     
@@ -151,7 +151,7 @@ class UICircularProgressRingLayer: CAShapeLayer {
         if event == "value" && self.animated {
             let animation = CABasicAnimation(keyPath: "value")
             animation.fromValue = self.presentation()?.value(forKey: "value")
-            animation.timingFunction = CAMediaTimingFunction(name: animationStyle)
+            animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName(rawValue: animationStyle))
             animation.duration = animationDuration
             return animation
         }

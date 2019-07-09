@@ -24,7 +24,7 @@ class NewsViewController: UIViewController {
         self.tableView.dataSource = self
         self.tableView.delegate = self
         self.tableView.estimatedRowHeight = 132
-        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.rowHeight = UITableView.automaticDimension
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -32,7 +32,7 @@ class NewsViewController: UIViewController {
         self.navigationController?.navigationBar.tintColor = UIColor.black
     }
     
-    func dataUpdated(_ notification: Notification) {
+    @objc func dataUpdated(_ notification: Notification) {
         self.tableView.reloadData()
     }
 }
