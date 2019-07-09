@@ -13,7 +13,6 @@
 		832DEF7D1F6652FE00F38BEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832DEF7B1F6652FE00F38BEE /* Main.storyboard */; };
 		832DEF7F1F6652FE00F38BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832DEF7E1F6652FE00F38BEE /* Assets.xcassets */; };
 		832DEF821F6652FE00F38BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832DEF801F6652FE00F38BEE /* LaunchScreen.storyboard */; };
-		832DEF8D1F6652FF00F38BEE /* letswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832DEF8C1F6652FF00F38BEE /* letswiftTests.swift */; };
 		8392A446216C567B00EC6C4F /* 하태경.png in Resources */ = {isa = PBXBuildFile; fileRef = 8392A435216C567900EC6C4F /* 하태경.png */; };
 		8392A447216C567B00EC6C4F /* 정현아.png in Resources */ = {isa = PBXBuildFile; fileRef = 8392A436216C567900EC6C4F /* 정현아.png */; };
 		8392A448216C567B00EC6C4F /* 김은영.png in Resources */ = {isa = PBXBuildFile; fileRef = 8392A437216C567900EC6C4F /* 김은영.png */; };
@@ -79,16 +78,6 @@
 		83A4D1C21F6A7D7500D14685 /* AboutMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A4D1C11F6A7D7500D14685 /* AboutMapTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		832DEF891F6652FF00F38BEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 832DEF6A1F6652FE00F38BEE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 832DEF711F6652FE00F38BEE;
-			remoteInfo = letswift;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		832DEF721F6652FE00F38BEE /* letswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		832DEF751F6652FE00F38BEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,9 +87,6 @@
 		832DEF7E1F6652FE00F38BEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		832DEF811F6652FE00F38BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		832DEF831F6652FE00F38BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		832DEF881F6652FF00F38BEE /* letswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = letswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		832DEF8C1F6652FF00F38BEE /* letswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letswiftTests.swift; sourceTree = "<group>"; };
-		832DEF8E1F6652FF00F38BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		832DEF971F66533800F38BEE /* letswift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = letswift.entitlements; sourceTree = "<group>"; };
 		8392A435216C567900EC6C4F /* 하태경.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "하태경.png"; sourceTree = "<group>"; };
 		8392A436216C567900EC6C4F /* 정현아.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "정현아.png"; sourceTree = "<group>"; };
@@ -200,13 +186,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		832DEF851F6652FF00F38BEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -214,7 +193,6 @@
 			isa = PBXGroup;
 			children = (
 				832DEF741F6652FE00F38BEE /* letswift */,
-				832DEF8B1F6652FF00F38BEE /* letswiftTests */,
 				832DEF731F6652FE00F38BEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -223,7 +201,6 @@
 			isa = PBXGroup;
 			children = (
 				832DEF721F6652FE00F38BEE /* letswift.app */,
-				832DEF881F6652FF00F38BEE /* letswiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,15 +225,6 @@
 				839829E91F6684EB0014C2EB /* letswift-Bridging-Header.h */,
 			);
 			path = letswift;
-			sourceTree = "<group>";
-		};
-		832DEF8B1F6652FF00F38BEE /* letswiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				832DEF8C1F6652FF00F38BEE /* letswiftTests.swift */,
-				832DEF8E1F6652FF00F38BEE /* Info.plist */,
-			);
-			path = letswiftTests;
 			sourceTree = "<group>";
 		};
 		839829F71F67E50B0014C2EB /* SDWebImage */ = {
@@ -424,24 +392,6 @@
 			productReference = 832DEF721F6652FE00F38BEE /* letswift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		832DEF871F6652FF00F38BEE /* letswiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 832DEF941F6652FF00F38BEE /* Build configuration list for PBXNativeTarget "letswiftTests" */;
-			buildPhases = (
-				832DEF841F6652FF00F38BEE /* Sources */,
-				832DEF851F6652FF00F38BEE /* Frameworks */,
-				832DEF861F6652FF00F38BEE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				832DEF8A1F6652FF00F38BEE /* PBXTargetDependency */,
-			);
-			name = letswiftTests;
-			productName = letswiftTests;
-			productReference = 832DEF881F6652FF00F38BEE /* letswiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -463,12 +413,6 @@
 							};
 						};
 					};
-					832DEF871F6652FF00F38BEE = {
-						CreatedOnToolsVersion = 8.3.2;
-						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 832DEF711F6652FE00F38BEE;
-					};
 				};
 			};
 			buildConfigurationList = 832DEF6D1F6652FE00F38BEE /* Build configuration list for PBXProject "letswift" */;
@@ -485,7 +429,6 @@
 			projectRoot = "";
 			targets = (
 				832DEF711F6652FE00F38BEE /* letswift */,
-				832DEF871F6652FF00F38BEE /* letswiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -516,13 +459,6 @@
 				832DEF7D1F6652FE00F38BEE /* Main.storyboard in Resources */,
 				8392A455216C567B00EC6C4F /* 최송이.png in Resources */,
 				8392A44F216C567B00EC6C4F /* 이승윤.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		832DEF861F6652FF00F38BEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,23 +520,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		832DEF841F6652FF00F38BEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				832DEF8D1F6652FF00F38BEE /* letswiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		832DEF8A1F6652FF00F38BEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 832DEF711F6652FE00F38BEE /* letswift */;
-			targetProxy = 832DEF891F6652FF00F38BEE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		832DEF7B1F6652FE00F38BEE /* Main.storyboard */ = {
@@ -774,34 +694,6 @@
 			};
 			name = Release;
 		};
-		832DEF951F6652FF00F38BEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = letswiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jk.codesquad.letswiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/letswift.app/letswift";
-			};
-			name = Debug;
-		};
-		832DEF961F6652FF00F38BEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = letswiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jk.codesquad.letswiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/letswift.app/letswift";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -819,15 +711,6 @@
 			buildConfigurations = (
 				832DEF921F6652FF00F38BEE /* Debug */,
 				832DEF931F6652FF00F38BEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		832DEF941F6652FF00F38BEE /* Build configuration list for PBXNativeTarget "letswiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				832DEF951F6652FF00F38BEE /* Debug */,
-				832DEF961F6652FF00F38BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
